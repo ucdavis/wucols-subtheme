@@ -21,7 +21,7 @@ parameters:
     allowedOrigins:
       ["http://localhost:3000", "https://wucols-frontend.ucdavis.edu"]
     # Sets the Access-Control-Expose-Headers header.
-    exposedHeaders: true
+    exposedHeaders: ["true"]
     # Sets the Access-Control-Max-Age header.
     maxAge: false
     # Sets the Access-Control-Allow-Credentials header.
